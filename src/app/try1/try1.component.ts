@@ -3,7 +3,7 @@ import { MockHttpService } from '../mock-http.service';
 
 /** The most basic way to get two observables where one is dependent on the other.
  * This is only viable here because both observables complete. Otherwise we would
- * cause ourselves all kinds of problems.*/
+ * cause ourselves all kinds of problems. */
 @Component({
   selector: 'app-try1',
   templateUrl: './try1.component.html',

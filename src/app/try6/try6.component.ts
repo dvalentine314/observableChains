@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { MockHttpService } from '../mock-http.service';
 import { filter, map, shareReplay, switchMap } from 'rxjs';
 
-/** Rather than subscribe to the observables and then bind them to the html template, you can simply provide the observables directly and use the Angular async pipe. */
+/** Rather than subscribe to the observables and then bind them to the html template,
+ * you can simply provide the observables directly and use the Angular async pipe. */
 @Component({
   selector: 'app-try6',
   templateUrl: './try6.component.html',
