@@ -2,7 +2,7 @@
 
 This demo project showcases different ways to write observables where one is dependent on the other. Each sample is in its own component which is referenced by the main `app.component.html` file.
 
-The primary focus of this effort is to consider the most readable and maintainable ways to write observables. I have included comments at the top of every example class explaining the main difference from the previous example as well as some thoughts on the approach.
+The primary focus of this effort is to consider the most readable and maintainable ways to write observables. I have included comments at the top of every example class (above the `@Component()` declaration) explaining the main difference from the previous example as well as some thoughts on the approach.
 
 You may feel free to use the codebase as a playground for your own rxjs experiments.
 
